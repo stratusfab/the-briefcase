@@ -6,7 +6,7 @@
 # Usage: bash .test_suite/run_validation_tests.sh [test_name]
 #
 
-set -e
+set +e
 
 # Colors for output
 RED='\033[0;31m'
