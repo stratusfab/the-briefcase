@@ -18,8 +18,8 @@
 **At Session End:**
 - Review this file
 - Triage items:
-  - Action items → Add to TODO.md
-  - Improvement ideas → Add to IMPROVEMENTS.md
+  - Action items → Add to todo.md
+  - Improvement ideas → Add to improvements.md
   - Resolved questions → Update relevant docs
   - Important patterns → Archive to BRAINSTORM.md or SESSION_CAPTURE_HISTORY.md
 - Clear this file for next session (or archive and start fresh)
@@ -49,7 +49,7 @@
 
 ### Ideas / Improvements
 
-- [Idea 1] - Consider adding to IMPROVEMENTS.md
+- [Idea 1] - Consider adding to improvements.md
 - [Idea 2] - Potential enhancement
 - [Idea 3] - Better way to do X
 
@@ -77,8 +77,8 @@
 
 ### Follow-up Needed
 
-- [ ] [Action item 1] → Add to TODO.md
-- [ ] [Action item 2] → Add to TODO.md
+- [ ] [Action item 1] → Add to todo.md
+- [ ] [Action item 2] → Add to todo.md
 - [ ] [Update documentation X]
 - [ ] [Research Y]
 
@@ -88,11 +88,11 @@
 
 **Before ending session, process these notes:**
 
-1. **Action Items** → Move to TODO.md
-2. **Improvement Ideas** → Move to IMPROVEMENTS.md
+1. **Action Items** → Move to todo.md
+2. **Improvement Ideas** → Move to improvements.md
 3. **Important Insights** → Update relevant documentation or archive
 4. **Questions Answered** → Update docs so question doesn't recur
-5. **Blockers** → Document in TODO.md as HIGH priority
+5. **Blockers** → Document in todo.md as HIGH priority
 
 **Then:**
 - Archive this file to `archive/SESSION_CAPTURE_[DATE].md` (optional)

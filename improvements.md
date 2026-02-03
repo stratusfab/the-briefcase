@@ -9,7 +9,7 @@
 ## How It Works
 
 1. **During any session:** If improvement ideas emerge, add them here
-2. **Weekly review:** Triage suggestions, move actionable items to TODO.md
+2. **Weekly review:** Triage suggestions, move actionable items to todo.md
 3. **Completed improvements:** Document and archive
 
 ---
@@ -67,14 +67,14 @@
    - Is it valuable? (Does it improve the system?)
    - What's the effort? (Small, medium, large?)
 3. **Validate (if significant):**
-   - Check PLANNING_VALIDATION_CHECKLIST.md for major changes
+   - Check planning_validation_checklist.md for major changes
    - Does it conflict with strategic decisions?
    - What are ripple effects?
 4. **Decide:**
-   - **YES:** Add to TODO.md with priority
+   - **YES:** Add to todo.md with priority
    - **MAYBE:** Keep here, revisit next review
    - **NO:** Document why, archive the suggestion
-5. **Move to TODO.md** when approved
+5. **Move to todo.md** when approved
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### [YYYY-MM-DD]: [Suggestion Name] - APPROVED
 
-**Decision:** Approved, added to TODO.md as [Task ID]
+**Decision:** Approved, added to todo.md as [Task ID]
 
 **Rationale:** [Why approved]
 
@@ -109,9 +109,9 @@
 **Conversation → Improvement → Todo → Done:**
 
 1. During work, user or AI notices improvement opportunity
-2. **Add to IMPROVEMENTS.md** (this file) with context
-3. **Weekly triage** - Review, move actionable to TODO.md
-4. **Session startup** - TODO.md shows pending work
+2. **Add to improvements.md** (this file) with context
+3. **Weekly triage** - Review, move actionable to todo.md
+4. **Session startup** - todo.md shows pending work
 5. **Work on todos** - Track progress, mark complete
 6. **Archive completed** - Move to archive with date
 
@@ -119,7 +119,7 @@
 
 ## 🎯 Categories for Todos
 
-When moving suggestions to TODO.md, use these categories:
+When moving suggestions to todo.md, use these categories:
 
 - `feature` - New functionality
 - `improvement` - Enhance existing feature
@@ -133,7 +133,7 @@ When moving suggestions to TODO.md, use these categories:
 ## Triage Schedule
 
 - **Daily:** Add suggestions as they emerge
-- **Weekly:** [Day] - Triage suggestions, update TODO.md
+- **Weekly:** [Day] - Triage suggestions, update todo.md
 - **Monthly:** Review completed, archive old items
 - **Quarterly:** System health assessment, long-term planning
 
@@ -141,9 +141,9 @@ When moving suggestions to TODO.md, use these categories:
 
 ## Related Files
 
-- [TODO.md](TODO.md) - Actionable items (created from suggestions)
-- [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md) - Weekly verification
-- [SESSION_CAPTURE.md](SESSION_CAPTURE.md) - In-session observations
+- [todo.md](todo.md) - Actionable items (created from suggestions)
+- [system_health_check.md](system_health_check.md) - Weekly verification
+- [session_capture.md](session_capture.md) - In-session observations
 - [master_plan.md](master_plan.md) - Strategic decisions (check for conflicts)
 
 ---

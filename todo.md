@@ -105,7 +105,7 @@
 
 **Why:** Catch issues early, ensure system health
 
-**Reference:** [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md)
+**Reference:** [system_health_check.md](system_health_check.md)
 
 **Next due:** [Next Thursday's date]
 
@@ -117,10 +117,10 @@
 **Created:** YYYY-MM-DD | **Status:** 🔄 Recurring
 
 **What to do:**
-1. Review [IMPROVEMENTS.md](IMPROVEMENTS.md) for new suggestions
+1. Review [improvements.md](improvements.md) for new suggestions
 2. For each: Is it actionable? Valuable? What's the effort?
 3. Move approved items to appropriate priority sections here
-4. Update suggestion status in IMPROVEMENTS.md
+4. Update suggestion status in improvements.md
 
 **Why:** Keeps improvement pipeline organized
 
@@ -190,9 +190,9 @@ Week of [Date]:
 
 ## Related Files
 
-- [IMPROVEMENTS.md](IMPROVEMENTS.md) - Suggestions awaiting triage
-- [SESSION_CAPTURE.md](SESSION_CAPTURE.md) - In-the-moment notes
-- [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md) - Weekly verification procedures
+- [improvements.md](improvements.md) - Suggestions awaiting triage
+- [session_capture.md](session_capture.md) - In-the-moment notes
+- [system_health_check.md](system_health_check.md) - Weekly verification procedures
 - [master_plan.md](master_plan.md) - Overall project status
 
 ---

@@ -43,8 +43,8 @@ git clone https://github.com/YOUR_USERNAME/the-briefcase.git .briefcase-template
 
 # Copy template files (review each before copying)
 cp .briefcase-template/master_plan.md ./
-cp .briefcase-template/TODO.md ./
-cp .briefcase-template/IMPROVEMENTS.md ./
+cp .briefcase-template/todo.md ./
+cp .briefcase-template/improvements.md ./
 # ... copy other templates as needed
 
 # Remove template
@@ -127,12 +127,12 @@ cat .credentials/CREDENTIALS_INVENTORY.md
 
 ---
 
-## Step 4: Initialize TODO.md (5 minutes)
+## Step 4: Initialize todo.md (5 minutes)
 
 Start with a clean slate:
 
 ```bash
-# TODO.md comes with examples - customize for your project
+# todo.md comes with examples - customize for your project
 ```
 
 Add your first todos:
@@ -179,7 +179,7 @@ claude
 ### For Claude Desktop / Web
 
 1. Open Claude Desktop or claude.ai
-2. Start conversation: "I'm working on [project name]. Read master_plan.md, TODO.md, and AI_INTEGRATION_GUIDE.md to understand the project."
+2. Start conversation: "I'm working on [project name]. Read master_plan.md, todo.md, and ai_integration_guide.md to understand the project."
 3. Claude reads files via MCP or file upload
 4. Verify Claude understands the project structure
 
@@ -212,16 +212,16 @@ Verify after setup:
 - [ ] .gitignore prevents committing secrets
 - [ ] Initial commit pushed to remote
 - [ ] AI assistant can read and understand project
-- [ ] TODO.md contains first tasks
+- [ ] todo.md contains first tasks
 - [ ] Validation tests pass (if run)
 
 ---
 
 ## Next Steps
 
-1. Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI integration
-2. Review [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) for commit standards
-3. Start first session (AI reads master_plan.md + TODO.md)
+1. Read [ai_integration_guide.md](ai_integration_guide.md) for AI integration
+2. Review [git_usage_guide.md](git_usage_guide.md) for commit standards
+3. Start first session (AI reads master_plan.md + todo.md)
 4. Work on first TODO item
 5. Commit changes with clear message
 6. Push to remote at session end
@@ -262,12 +262,12 @@ touch .test_suite/test_api_coverage.sh
 - **Fix:** Explicitly ask AI to read master_plan.md
 
 **Issue:** Credentials accidentally committed
-- **Fix:** See [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) → "Removing Sensitive Data"
+- **Fix:** See [git_usage_guide.md](git_usage_guide.md) → "Removing Sensitive Data"
 - **Fix:** `git filter-branch` or `git filter-repo` to scrub history
 - **Fix:** Rotate compromised credentials immediately
 
 **Issue:** Documentation feels overwhelming
-- **Fix:** Start minimal - just master_plan.md + TODO.md
+- **Fix:** Start minimal - just master_plan.md + todo.md
 - **Fix:** Add more documentation as needed, not all at once
 
 ---
@@ -275,6 +275,6 @@ touch .test_suite/test_api_coverage.sh
 ## Getting Help
 
 - Open an issue on GitHub
-- Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI-specific questions
+- Check [troubleshooting.md](troubleshooting.md)
+- Read [ai_integration_guide.md](ai_integration_guide.md) for AI-specific questions
 

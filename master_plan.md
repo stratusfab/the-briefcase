@@ -21,30 +21,30 @@
 ### Getting Started
 | Task Type | Reference Document | Purpose |
 |-----------|-------------------|---------|
-| **New AI joining this project?** | AI_INTEGRATION_GUIDE.md | Complete onboarding for any AI |
-| **Brand new to this system?** | SETUP.md | Installation + first 30 minutes |
-| **Lost? Need terminology help?** | GLOSSARY.md | Definitions and concepts |
+| **New AI joining this project?** | ai_integration_guide.md | Complete onboarding for any AI |
+| **Brand new to this system?** | setup.md | Installation + first 30 minutes |
+| **Lost? Need terminology help?** | glossary.md | Definitions and concepts |
 
 ### Finding Procedures
 | Task Type | Reference Document | Purpose |
 |-----------|-------------------|---------|
-| **How do I do [task]?** | COMMON_TASKS.md | Quick procedures |
-| **Something's broken** | TROUBLESHOOTING.md | Common issues with solutions |
+| **How do I do [task]?** | common_tasks.md | Quick procedures |
+| **Something's broken** | troubleshooting.md | Common issues with solutions |
 
 ### Working on Specific Domains
 | Task Type | Reference Document | Purpose |
 |-----------|-------------------|---------|
 | **Starting a new session** | SESSION_STARTUP_GUIDE.md | Context loading, suggested actions |
-| **What needs to be done?** | TODO.md | Persistent todo list |
-| **What came up today?** | SESSION_CAPTURE.md | In-the-moment notes |
-| **System improvement ideas** | IMPROVEMENTS.md | Capture suggestions, reviewed weekly |
-| **Git/version control** | GIT_USAGE_GUIDE.md | Git workflow, commit standards |
+| **What needs to be done?** | todo.md | Persistent todo list |
+| **What came up today?** | session_capture.md | In-the-moment notes |
+| **System improvement ideas** | improvements.md | Capture suggestions, reviewed weekly |
+| **Git/version control** | git_usage_guide.md | Git workflow, commit standards |
 
 **When starting a new session:**
 1. Read master_plan.md (this file) - Get oriented
-2. Read TODO.md - See what work is available
+2. Read todo.md - See what work is available
 3. Choose direction or follow suggestions
-4. Update SESSION_CAPTURE.md with progress
+4. Update session_capture.md with progress
 5. Commit changes before ending session
 
 ---
@@ -125,8 +125,8 @@ Documentation is organized in 3 levels, each serving a specific purpose:
 **Current Focus:** [What you're working on]
 
 **If disconnected, resume by:**
-1. Read TODO.md for current work items
-2. Check SESSION_CAPTURE.md for recent context
+1. Read todo.md for current work items
+2. Check session_capture.md for recent context
 3. Check git logs for recent commits
 4. Pick up where you left off
 
@@ -212,7 +212,7 @@ Documentation is organized in 3 levels, each serving a specific purpose:
 - [Risk] - [How it's mitigated]
 
 ### TODO (High Priority)
-See [TODO.md](TODO.md) for full list. Top 3:
+See [todo.md](todo.md) for full list. Top 3:
 1. [High priority item 1]
 2. [High priority item 2]
 3. [High priority item 3]
@@ -280,10 +280,10 @@ git push origin main
 ## Related Documents
 
 - **[README.md](README.md)** - Project overview and philosophy
-- **[TODO.md](TODO.md)** - Current work items
-- **[IMPROVEMENTS.md](IMPROVEMENTS.md)** - Enhancement suggestions
-- **[SESSION_CAPTURE.md](SESSION_CAPTURE.md)** - In-session notes
-- **[AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md)** - AI onboarding
+- **[todo.md](todo.md)** - Current work items
+- **[improvements.md](improvements.md)** - Enhancement suggestions
+- **[session_capture.md](session_capture.md)** - In-session notes
+- **[ai_integration_guide.md](ai_integration_guide.md)** - AI onboarding
 
 ---
 

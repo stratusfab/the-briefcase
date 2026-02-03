@@ -67,9 +67,9 @@
 
 **Common impacts:**
 - New system → New Level 2 doc required
-- Changed workflow → Update COMMON_TASKS.md
+- Changed workflow → Update common_tasks.md
 - New decisions → Update master_plan.md
-- New terminology → Update GLOSSARY.md
+- New terminology → Update glossary.md
 
 ---
 
@@ -84,7 +84,7 @@
 - [ ] Future work or dependencies
 
 **For each ripple effect:**
-- Document in TODO.md as follow-up task
+- Document in todo.md as follow-up task
 - Assign priority (HIGH/MEDIUM/LOW)
 - Note which can be batched together
 
@@ -158,7 +158,7 @@
 
 **Document in:**
 - master_plan.md (if strategic)
-- TODO.md (if tactical)
+- todo.md (if tactical)
 - Relevant Level 2 doc (if domain-specific)
 
 ---
@@ -175,7 +175,7 @@
 4. **Documentation:** → Need to create BACKUP_PROCEDURES.md
 5. **Ripple Effects:**
    - Update master_plan.md (add backup system)
-   - Update SYSTEM_HEALTH_CHECK.md (verify backups weekly)
+   - Update system_health_check.md (verify backups weekly)
    - Update DISASTER_RECOVERY.md (restore procedures)
 6. **Alternatives:** Considered manual backups (rejected: too error-prone)
 7. **Success Criteria:** Backups run daily, can restore within 1 hour
@@ -183,16 +183,16 @@
 9. **Risks:** Could fail silently → Mitigation: Add monitoring
 10. **Approval:** Approved by user, document in master_plan.md
 
-**Decision:** APPROVED - Add to TODO.md as HIGH priority
+**Decision:** APPROVED - Add to todo.md as HIGH priority
 
 ---
 
 ## Related Files
 
 - [master_plan.md](master_plan.md) - Strategic decisions, current phase
-- [TODO.md](TODO.md) - Where approved items go
-- [IMPROVEMENTS.md](IMPROVEMENTS.md) - Where suggestions start
-- [SESSION_CAPTURE.md](SESSION_CAPTURE.md) - Capture ripple effects during work
+- [todo.md](todo.md) - Where approved items go
+- [improvements.md](improvements.md) - Where suggestions start
+- [session_capture.md](session_capture.md) - Capture ripple effects during work
 
 ---
 

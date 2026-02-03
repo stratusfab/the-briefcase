@@ -12,7 +12,7 @@
 ```bash
 cd /path/to/project
 git pull  # Get latest changes
-# AI: Read master_plan.md + TODO.md
+# AI: Read master_plan.md + todo.md
 ```
 
 ### End a Session
@@ -40,7 +40,7 @@ git remote -v           # Remote repositories
 3. Commit: `git commit -m "[doc] Update master plan with [change]"`
 
 ### Add New Todo Item
-1. Edit TODO.md
+1. Edit todo.md
 2. Add under appropriate priority section
 3. Include: Category, Priority, Status, Description
 4. Commit: `git commit -m "[doc] Add TODO: [brief description]"`

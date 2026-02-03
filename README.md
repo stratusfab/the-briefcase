@@ -26,11 +26,11 @@ The Briefcase is a Git-based persistent memory system for AI-assisted projects. 
 
 ## Quick Start
 
-New users should see [SETUP.md](SETUP.md) for installation (approximately 30 minutes).
+New users should see [setup.md](setup.md) for installation (approximately 30 minutes).
 
 ### Workflow
 
-1. AI loads context from master_plan.md and TODO.md
+1. AI loads context from master_plan.md and todo.md
 2. Make changes and track decisions
 3. Commit with descriptive message
 4. Push to remote repository
@@ -59,12 +59,12 @@ New users should see [SETUP.md](SETUP.md) for installation (approximately 30 min
 | File | Purpose | Usage |
 |------|---------|-------|
 | master_plan.md | Project overview | Read at session start |
-| TODO.md | Work items | Read at session start |
-| IMPROVEMENTS.md | Suggestions | Review weekly |
-| SESSION_CAPTURE.md | Session notes | Update during work |
-| AI_INTEGRATION_GUIDE.md | AI onboarding | Read when joining project |
-| GLOSSARY.md | Terminology | Reference as needed |
-| COMMON_TASKS.md | Procedures | Reference for routine tasks |
+| todo.md | Work items | Read at session start |
+| improvements.md | Suggestions | Review weekly |
+| session_capture.md | Session notes | Update during work |
+| ai_integration_guide.md | AI onboarding | Read when joining project |
+| glossary.md | Terminology | Reference as needed |
+| common_tasks.md | Procedures | Reference for routine tasks |
 
 ## Features
 
@@ -115,9 +115,9 @@ New users should see [SETUP.md](SETUP.md) for installation (approximately 30 min
 ### For New Projects
 
 1. Clone this repository
-2. Follow SETUP.md (30 minutes)
+2. Follow setup.md (30 minutes)
 3. Customize master_plan.md
-4. Read AI_INTEGRATION_GUIDE.md
+4. Read ai_integration_guide.md
 5. Begin work
 
 ### For Existing Projects
@@ -130,11 +130,11 @@ New users should see [SETUP.md](SETUP.md) for installation (approximately 30 min
 
 ## Documentation
 
-- [SETUP.md](SETUP.md) - Installation and configuration
-- [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) - AI onboarding process
-- [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) - Git workflow
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common issues
-- [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md) - Maintenance procedures
+- [setup.md](setup.md) - Installation and configuration
+- [ai_integration_guide.md](ai_integration_guide.md) - AI onboarding process
+- [git_usage_guide.md](git_usage_guide.md) - Git workflow
+- [troubleshooting.md](troubleshooting.md) - Common issues
+- [system_health_check.md](system_health_check.md) - Maintenance procedures
 
 ## Requirements
 

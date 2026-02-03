@@ -51,23 +51,23 @@ bash .test_suite/run_validation_tests.sh
 Check when key files were last updated:
 
 ```bash
-ls -la master_plan.md TODO.md IMPROVEMENTS.md SESSION_CAPTURE.md
+ls -la master_plan.md todo.md improvements.md session_capture.md
 ```
 
 **Review:**
 - master_plan.md: Updated within 30 days?
-- TODO.md: Updated within 7 days?
-- IMPROVEMENTS.md: Reviewed within 14 days?
-- SESSION_CAPTURE.md: Current session or archived?
+- todo.md: Updated within 7 days?
+- improvements.md: Reviewed within 14 days?
+- session_capture.md: Current session or archived?
 
 **Action:** Update stale documentation
 
 ---
 
-### 4. TODO.md Review (2 min)
+### 4. todo.md Review (2 min)
 
 ```bash
-cat TODO.md
+cat todo.md
 ```
 
 **Check:**
@@ -76,7 +76,7 @@ cat TODO.md
 - [ ] New work items added?
 - [ ] Status emojis accurate?
 
-**Action:** Update TODO.md if needed
+**Action:** Update todo.md if needed
 
 ---
 
@@ -115,10 +115,10 @@ git ls-remote origin
 
 ### 7. Process Improvement Check (2 min)
 
-Review IMPROVEMENTS.md:
+Review improvements.md:
 
 ```bash
-cat IMPROVEMENTS.md
+cat improvements.md
 ```
 
 **Check:**

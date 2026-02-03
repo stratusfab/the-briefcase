@@ -27,7 +27,7 @@ Optional: Longer explanation if needed
 
 ### Examples
 ```bash
-git commit -m "[doc] Update TODO.md with new tasks"
+git commit -m "[doc] Update todo.md with new tasks"
 git commit -m "[fix] Correct broken link in master_plan.md"
 git commit -m "[feature] Add validation test for credentials"
 ```
@@ -45,7 +45,7 @@ git pull
 git status
 
 # 3. Load context (AI reads docs)
-# Read: master_plan.md, TODO.md, SESSION_CAPTURE.md
+# Read: master_plan.md, todo.md, session_capture.md
 ```
 
 ### During Work
@@ -57,7 +57,7 @@ git commit -m "[category] What you did"
 
 ### Session End
 ```bash
-# 1. Update SESSION_CAPTURE.md
+# 1. Update session_capture.md
 # 2. Mark completed TODOs
 # 3. Final commit
 git add .

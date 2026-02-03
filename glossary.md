@@ -30,13 +30,13 @@ The process of an AI reading key documentation files at session start to underst
 Documented constraints and technology choices that shape how the project operates. These are not up for re-debate.
 
 ### Ripple Effect
-When a change in one area necessitates updates in other areas. Tracked in TODO.md to prevent documentation loops.
+When a change in one area necessitates updates in other areas. Tracked in todo.md to prevent documentation loops.
 
 ### Session Capture
 Temporary in-the-moment notes during active work. Triaged at session end and cleared.
 
 ### Triage
-The weekly process of reviewing suggestions in IMPROVEMENTS.md and deciding which to pursue.
+The weekly process of reviewing suggestions in improvements.md and deciding which to pursue.
 
 ### Persistent Memory
 Using Git-versioned documentation as the source of truth that persists across AI sessions.

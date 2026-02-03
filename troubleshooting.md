@@ -40,7 +40,7 @@ git commit -m "[fix] Repair broken documentation links"
 **Solutions:**
 1. Review all *.md files, check timestamps
 2. Update "Last Updated" fields
-3. Follow COMMON_TASKS.md for update procedures
+3. Follow common_tasks.md for update procedures
 4. Run validation tests after updates
 
 ---
@@ -58,7 +58,7 @@ git commit -m "[fix] Repair broken documentation links"
    git commit --amend --no-edit
    ```
 3. **ROTATE THE CREDENTIAL** immediately
-4. See GIT_USAGE_GUIDE.md for removing from history
+4. See git_usage_guide.md for removing from history
 
 ---
 
@@ -138,7 +138,7 @@ git status  # Should not show sensitive files
 **Expected:** Template needs customization
 
 **Solutions:**
-1. Follow SETUP.md to customize template
+1. Follow setup.md to customize template
 2. Fill in [placeholder] values in master_plan.md
 3. Re-run tests after customization
 
@@ -163,8 +163,8 @@ git status  # Should not show sensitive files
 **Expected Behavior:** This is normal - The Briefcase uses Git as memory
 
 **Solutions:**
-1. AI must read master_plan.md + TODO.md at session start
-2. Check SESSION_CAPTURE.md for recent context
+1. AI must read master_plan.md + todo.md at session start
+2. Check session_capture.md for recent context
 3. Ensure changes were committed before ending last session
 4. Pull latest changes: `git pull`
 
@@ -175,8 +175,8 @@ git status  # Should not show sensitive files
 
 **Solutions:**
 1. All AIs must read latest documentation: `git pull`
-2. Follow AI_INTEGRATION_GUIDE.md procedures
-3. Use SESSION_CAPTURE.md to note conflicts
+2. Follow ai_integration_guide.md procedures
+3. Use session_capture.md to note conflicts
 4. Establish clear ownership if needed
 
 ---
@@ -216,8 +216,8 @@ bash .test_suite/run_validation_tests.sh
 
 **Still stuck?**
 1. Review [README.md](README.md) for overview
-2. Check [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI-specific help
-3. Review [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) for Git issues
+2. Check [ai_integration_guide.md](ai_integration_guide.md) for AI-specific help
+3. Review [git_usage_guide.md](git_usage_guide.md) for Git issues
 4. Open an issue on The Briefcase GitHub repository
 
 ---

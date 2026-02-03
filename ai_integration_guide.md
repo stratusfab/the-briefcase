@@ -23,7 +23,7 @@ The Briefcase is a **Git-based persistent memory system** that solves the contex
 You are an AI assistant helping with this project. Your job is to:
 
 1. **Load context** at session start by reading key documentation files
-2. **Work on tasks** from TODO.md or user requests
+2. **Work on tasks** from todo.md or user requests
 3. **Update documentation** as work progresses
 4. **Commit changes** to Git before ending sessions
 5. **Maintain consistency** with the established methodology
@@ -44,17 +44,17 @@ Read these files in priority order:
    - Reference table
    - Strategic decisions
 
-2. **TODO.md** (REQUIRED)
+2. **todo.md** (REQUIRED)
    - Current work items
    - Priorities
    - Blockers
 
-3. **SESSION_CAPTURE.md** (if exists)
+3. **session_capture.md** (if exists)
    - Recent observations
    - In-progress context
    - Blockers from last session
 
-4. **IMPROVEMENTS.md** (optional)
+4. **improvements.md** (optional)
    - Pending suggestions
    - Enhancement ideas
 
@@ -109,13 +109,13 @@ The Briefcase uses 3 levels of documentation:
 | File | Purpose | Read When | Update When |
 |------|---------|-----------|-------------|
 | **master_plan.md** | Project overview | Every session | Major changes |
-| **TODO.md** | Work items | Every session | Add/complete tasks |
-| **IMPROVEMENTS.md** | Suggestions | Weekly review | New ideas emerge |
-| **SESSION_CAPTURE.md** | In-session notes | During work | During work |
-| **GLOSSARY.md** | Terminology | When confused | New terms added |
-| **COMMON_TASKS.md** | Procedures | When doing task | New procedures |
-| **GIT_USAGE_GUIDE.md** | Git workflow | When committing | Workflow changes |
-| **TROUBLESHOOTING.md** | Problem-solving | When stuck | New issues solved |
+| **todo.md** | Work items | Every session | Add/complete tasks |
+| **improvements.md** | Suggestions | Weekly review | New ideas emerge |
+| **session_capture.md** | In-session notes | During work | During work |
+| **glossary.md** | Terminology | When confused | New terms added |
+| **common_tasks.md** | Procedures | When doing task | New procedures |
+| **git_usage_guide.md** | Git workflow | When committing | Workflow changes |
+| **troubleshooting.md** | Problem-solving | When stuck | New issues solved |
 
 ---
 
@@ -146,7 +146,7 @@ Optional: More detailed explanation if needed
 - `[cleanup]` - Code cleanup
 
 **Examples:**
-- `[doc] Update TODO.md with new tasks from session`
+- `[doc] Update todo.md with new tasks from session`
 - `[fix] Correct typo in API endpoint documentation`
 - `[feature] Add validation script for credential inventory`
 
@@ -154,8 +154,8 @@ Optional: More detailed explanation if needed
 
 Before ending every session:
 
-1. **Update SESSION_CAPTURE.md** with any observations
-2. **Update TODO.md** status (mark completed items)
+1. **Update session_capture.md** with any observations
+2. **Update todo.md** status (mark completed items)
 3. **Commit all changes:**
    ```bash
    git add .
@@ -172,7 +172,7 @@ Before ending every session:
 
 ---
 
-## Working with TODO.md
+## Working with todo.md
 
 ### Task Status Values
 - 📋 **Scheduled** - Has a date, not started
@@ -191,13 +191,13 @@ Before ending every session:
 ### When Working on a Task
 
 1. **Start:** Note task ID, read full description
-2. **During:** Update SESSION_CAPTURE.md with progress
-3. **Complete:** Mark task as ✅ Completed in TODO.md
+2. **During:** Update session_capture.md with progress
+3. **Complete:** Mark task as ✅ Completed in todo.md
 4. **Document:** If approach or solution is notable, add to relevant Level 2 doc
 
 ---
 
-## Working with IMPROVEMENTS.md
+## Working with improvements.md
 
 ### When to Add Suggestions
 
@@ -207,7 +207,7 @@ During work, if you notice:
 - A useful new feature
 - A process inefficiency
 
-Add it to IMPROVEMENTS.md with:
+Add it to improvements.md with:
 - **Context:** What prompted this idea
 - **Benefit:** Why it would help
 - **Effort:** Rough estimate (Low/Medium/High)
@@ -259,7 +259,7 @@ The `.credentials/` directory is gitignored. It exists to document **what** cred
 
 **If secrets are accidentally committed:**
 - Stop immediately
-- Follow GIT_USAGE_GUIDE.md → "Removing Sensitive Data"
+- Follow git_usage_guide.md → "Removing Sensitive Data"
 - Rotate compromised credentials
 
 ---
@@ -287,7 +287,7 @@ You might not be the only AI working on this project. Stay coordinated:
 4. **Document changes** - Update relevant files so other AIs understand
 
 ### If You Notice Conflicts
-- Note in SESSION_CAPTURE.md
+- Note in session_capture.md
 - Ask user for clarification
 - Don't silently override another AI's work
 
@@ -305,7 +305,7 @@ You might not be the only AI working on this project. Stay coordinated:
 - Use `@workspace` to reference project context
 - Read master_plan.md in editor for context
 - Follow commit message standards
-- Check TODO.md for current work items
+- Check todo.md for current work items
 
 ### For ChatGPT / Web-based AIs
 - Request file contents from user if you can't read directly
@@ -323,12 +323,12 @@ You might not be the only AI working on this project. Stay coordinated:
 
 ## Common Pitfalls to Avoid
 
-1. **Skipping context loading** - Always read master_plan.md + TODO.md
+1. **Skipping context loading** - Always read master_plan.md + todo.md
 2. **Creating duplicate docs** - Check if documentation exists first
 3. **Ignoring strategic decisions** - Work within established constraints
 4. **Not committing changes** - Commit before session ends
 5. **Committing secrets** - Never commit credentials
-6. **Working on wrong priority** - Check TODO.md for priorities
+6. **Working on wrong priority** - Check todo.md for priorities
 7. **Over-engineering** - Keep solutions simple and focused
 
 ---
@@ -337,17 +337,17 @@ You might not be the only AI working on this project. Stay coordinated:
 
 **If you're confused about the project:**
 - Re-read master_plan.md
-- Check GLOSSARY.md for terminology
+- Check glossary.md for terminology
 - Ask user for clarification
 
 **If you're not sure what to work on:**
-- Check TODO.md for high priority items
+- Check todo.md for high priority items
 - Ask user what they need
 - Suggest next logical step based on current phase
 
 **If documentation is unclear:**
-- Note issue in SESSION_CAPTURE.md
-- Add to IMPROVEMENTS.md
+- Note issue in session_capture.md
+- Add to improvements.md
 - Ask user for clarification
 - Update documentation once clarified
 
@@ -370,14 +370,14 @@ Integration is complete when you can:
 
 **For methodology questions:**
 - This guide
-- GIT_USAGE_GUIDE.md for Git workflow
-- TROUBLESHOOTING.md for common issues
+- git_usage_guide.md for Git workflow
+- troubleshooting.md for common issues
 - User if information is unclear
 
 **For project questions:**
 - master_plan.md for overview
 - Level 2 documentation for domain details
-- SESSION_CAPTURE.md for recent context
+- session_capture.md for recent context
 - User if information is not documented
 
 ---
@@ -385,8 +385,8 @@ Integration is complete when you can:
 ## Starting Work
 
 1. Read master_plan.md for project understanding
-2. Read TODO.md for available work
+2. Read todo.md for available work
 3. Select a task
-4. Update SESSION_CAPTURE.md with progress
+4. Update session_capture.md with progress
 5. Complete the work following methodology
 6. Commit changes before ending session

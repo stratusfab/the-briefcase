@@ -40,7 +40,7 @@
 | **test_gitignore_rules** | .gitignore protects secrets | CRITICAL |
 | **test_credentials_safe** | No credentials in Git | CRITICAL |
 | **test_markdown_format** | Markdown files valid | MEDIUM |
-| **test_todo_format** | TODO.md follows template | LOW |
+| **test_todo_format** | todo.md follows template | LOW |
 | **test_master_plan_complete** | master_plan.md has required sections | MEDIUM |
 
 ---
@@ -165,8 +165,8 @@ Summary shows:
 
 ## Related Documentation
 
-- [SETUP.md](../SETUP.md) - Setup guide (includes test running)
-- [GIT_USAGE_GUIDE.md](../GIT_USAGE_GUIDE.md) - Git workflow
+- [setup.md](../setup.md) - Setup guide (includes test running)
+- [git_usage_guide.md](../git_usage_guide.md) - Git workflow
 - [master_plan.md](../master_plan.md) - Project overview
 
 ---
