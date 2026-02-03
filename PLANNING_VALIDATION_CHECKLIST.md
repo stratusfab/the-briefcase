@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Why This Checklist Exists
+## Purpose
 
 **Problem:** It's easy to pursue interesting ideas that conflict with project goals, strategic decisions, or existing work.
 
@@ -14,7 +14,7 @@
 
 ---
 
-## ✅ Validation Checklist
+## Validation Checklist
 
 ### 1. Strategic Alignment
 
@@ -163,7 +163,7 @@
 
 ---
 
-## 📝 Example: Evaluating a New Feature
+## Example: Evaluating a New Feature
 
 **Proposal:** Add automated backup system
 
@@ -187,7 +187,7 @@
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [master_plan.md](master_plan.md) - Strategic decisions, current phase
 - [TODO.md](TODO.md) - Where approved items go
@@ -196,7 +196,7 @@
 
 ---
 
-## 🚦 Decision Matrix
+## Decision Matrix
 
 | Strategic Alignment | Scope Match | High Value | Low Risk | → Decision |
 |---------------------|-------------|------------|----------|------------|

@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 How It Works
+## How It Works
 
 1. **During any session:** If improvement ideas emerge, add them here
 2. **Weekly review:** Triage suggestions, move actionable items to TODO.md
@@ -14,7 +14,7 @@
 
 ---
 
-## 💭 Current Suggestions (Awaiting Triage)
+## Current Suggestions (Awaiting Triage)
 
 ### [YYYY-MM-DD]: [Suggestion Title]
 
@@ -57,7 +57,7 @@
 
 ---
 
-## 🔄 Triage Workflow
+## Triage Workflow
 
 **When reviewing suggestions:**
 
@@ -78,7 +78,7 @@
 
 ---
 
-## ✅ Triaged Suggestions
+## Triaged Suggestions
 
 ### [YYYY-MM-DD]: [Suggestion Name] - APPROVED
 
@@ -104,7 +104,7 @@
 
 ---
 
-## 📚 How This Integrates
+## How This Integrates
 
 **Conversation → Improvement → Todo → Done:**
 
@@ -130,7 +130,7 @@ When moving suggestions to TODO.md, use these categories:
 
 ---
 
-## ✅ Triage Schedule
+## Triage Schedule
 
 - **Daily:** Add suggestions as they emerge
 - **Weekly:** [Day] - Triage suggestions, update TODO.md
@@ -139,7 +139,7 @@ When moving suggestions to TODO.md, use these categories:
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [TODO.md](TODO.md) - Actionable items (created from suggestions)
 - [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md) - Weekly verification

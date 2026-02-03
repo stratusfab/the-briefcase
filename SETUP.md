@@ -205,28 +205,26 @@ Fix any issues reported.
 
 ## Post-Setup Checklist
 
-After setup, verify:
+Verify after setup:
 
-- [ ] `master_plan.md` customized for your project
-- [ ] `.credentials/CREDENTIALS_INVENTORY.md` lists your credentials
-- [ ] `.gitignore` prevents committing secrets
+- [ ] master_plan.md customized for your project
+- [ ] .credentials/CREDENTIALS_INVENTORY.md lists credentials
+- [ ] .gitignore prevents committing secrets
 - [ ] Initial commit pushed to remote
 - [ ] AI assistant can read and understand project
-- [ ] TODO.md has your first tasks
+- [ ] TODO.md contains first tasks
 - [ ] Validation tests pass (if run)
 
 ---
 
 ## Next Steps
 
-**You're ready to work!**
-
-1. Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI-specific tips
+1. Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI integration
 2. Review [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) for commit standards
-3. Start your first session (AI reads master_plan.md + TODO.md)
+3. Start first session (AI reads master_plan.md + TODO.md)
 4. Work on first TODO item
 5. Commit changes with clear message
-6. Push to remote at end of session
+6. Push to remote at session end
 
 ---
 
@@ -280,6 +278,3 @@ touch .test_suite/test_api_coverage.sh
 - Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for AI-specific questions
 
----
-
-**Setup complete? Start your first session!**

@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 How to Use This Todo List
+## How to Use This Todo List
 
 ### Task Categories
 
@@ -63,7 +63,7 @@
 
 ---
 
-## 📝 Medium Priority
+## Medium Priority
 
 ### 1. [Example Medium Priority Task]
 
@@ -78,7 +78,7 @@
 
 ---
 
-## 🔍 Low Priority
+## Low Priority
 
 ### 1. [Example Low Priority Task]
 
@@ -90,7 +90,7 @@
 
 ---
 
-## 🔄 Recurring Tasks
+## Recurring Tasks
 
 ### 1. Weekly System Health Check
 
@@ -128,7 +128,7 @@
 
 ---
 
-## 📊 Investigations (Research Needed)
+## Investigations (Research Needed)
 
 ### 1. [Example Investigation]
 
@@ -148,7 +148,7 @@
 
 ---
 
-## ✅ Completed (Recent)
+## Completed (Recent)
 
 ### Completed [This Week/Month]
 
@@ -160,7 +160,7 @@
 
 ---
 
-## 📅 Calendar View
+## Calendar View
 
 ```
 Week of [Date]:
@@ -175,7 +175,7 @@ Week of [Date]:
 
 ---
 
-## 📊 Statistics
+## Statistics
 
 | Metric | Count |
 |--------|-------|
@@ -188,7 +188,7 @@ Week of [Date]:
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [IMPROVEMENTS.md](IMPROVEMENTS.md) - Suggestions awaiting triage
 - [SESSION_CAPTURE.md](SESSION_CAPTURE.md) - In-the-moment notes
@@ -197,7 +197,7 @@ Week of [Date]:
 
 ---
 
-## 📝 How to Use This File
+## How to Use This File
 
 **Adding a new todo:**
 1. Choose appropriate priority section

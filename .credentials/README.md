@@ -4,7 +4,7 @@
 
 ---
 
-## 🔐 Purpose
+## Purpose
 
 The `.credentials/` directory provides:
 
@@ -33,7 +33,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 📋 How to Use
+## How to Use
 
 ### Adding a New Credential
 
@@ -78,7 +78,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 ### DO:
 - ✅ Use password managers for passwords
@@ -99,7 +99,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 🚨 If Credentials Are Accidentally Committed
+## If Credentials Are Accidentally Committed
 
 **STOP IMMEDIATELY!**
 
@@ -132,7 +132,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 📖 Recommended Tools
+## Recommended Tools
 
 ### Password Managers
 - **1Password** - Team sharing, CLI access
@@ -159,7 +159,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 🔄 Backup & Recovery
+## Backup & Recovery
 
 ### Backing Up Credentials
 
@@ -195,7 +195,7 @@ The `.credentials/` directory provides:
 
 ---
 
-## 📋 Credential Inventory Template
+## Credential Inventory Template
 
 See [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) for the full inventory.
 
@@ -218,7 +218,7 @@ See [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) for the full inventory.
 
 ---
 
-## ✅ Regular Maintenance
+## Regular Maintenance
 
 ### Weekly
 - [ ] Check for expiration warnings
@@ -241,7 +241,7 @@ See [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) for the full inventory.
 
 ---
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) - The actual inventory
 - [.gitignore](../.gitignore) - Prevents committing secrets

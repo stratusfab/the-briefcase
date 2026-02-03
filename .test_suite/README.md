@@ -6,7 +6,7 @@
 
 ---
 
-## 🧪 What Gets Tested
+## What Gets Tested
 
 ### Documentation Consistency
 - All referenced files exist
@@ -31,7 +31,7 @@
 
 ---
 
-## 📋 Test List
+## Test List
 
 | Test | What It Checks | Severity |
 |------|----------------|----------|
@@ -45,7 +45,7 @@
 
 ---
 
-## 🚀 Running Tests
+## Running Tests
 
 ### Run All Tests
 ```bash
@@ -74,7 +74,7 @@ jobs:
 
 ---
 
-## ✅ Exit Codes
+## Exit Codes
 
 - **0** - All tests passed
 - **1** - One or more tests failed
@@ -82,7 +82,7 @@ jobs:
 
 ---
 
-## 📝 Adding New Tests
+## Adding New Tests
 
 ### Create a New Test Function
 
@@ -116,7 +116,7 @@ TESTS=(
 
 ---
 
-## 🔧 Test Development Tips
+## Test Development Tips
 
 ### Good Test Practices
 - Test one thing per test function
@@ -132,7 +132,7 @@ TESTS=(
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Tests fail on fresh clone:**
 - Expected - customize template files first
@@ -148,7 +148,7 @@ TESTS=(
 
 ---
 
-## 📊 Test Results
+## Test Results
 
 Tests output:
 - ✅ PASS - Test succeeded
@@ -163,7 +163,7 @@ Summary shows:
 
 ---
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [SETUP.md](../SETUP.md) - Setup guide (includes test running)
 - [GIT_USAGE_GUIDE.md](../GIT_USAGE_GUIDE.md) - Git workflow

@@ -1,14 +1,14 @@
 # AI Integration Guide
 
-**Purpose:** Onboard any AI assistant (Claude, Copilot, ChatGPT, custom AI) to work with The Briefcase methodology.
+**Purpose:** Instructions for AI assistants working with The Briefcase methodology.
 
-**Time Required:** 5-10 minutes for AI to read and understand
+**Reading Time:** 5-10 minutes
 
 ---
 
-## Welcome, AI Assistant! 🤖
+## Overview
 
-This guide will help you understand how to work effectively with The Briefcase framework. Read this entire document before starting work.
+This guide explains how to work with The Briefcase framework. Read this document before beginning work on the project.
 
 ---
 
@@ -353,42 +353,40 @@ You might not be the only AI working on this project. Stay coordinated:
 
 ---
 
-## Success Criteria
+## Integration Checklist
 
-You're successfully integrated with The Briefcase when:
+Integration is complete when you can:
 
-- ✅ You can start a session and understand project context in <3 minutes
-- ✅ You know where to find information (navigate 3-level hierarchy)
-- ✅ You update documentation as you work
-- ✅ You commit changes with clear messages
-- ✅ You maintain consistency with established methodology
-- ✅ You add value without re-explaining every session
+- Start a session and understand project context within 3 minutes
+- Navigate the 3-level documentation hierarchy
+- Update documentation during work
+- Write clear commit messages
+- Maintain consistency with established patterns
+- Work without requiring context re-explanation each session
 
 ---
 
-## Questions?
+## Reference
 
 **For methodology questions:**
-- Check this guide first
-- Check GIT_USAGE_GUIDE.md for Git workflow
-- Check TROUBLESHOOTING.md for common issues
-- Ask user if still unclear
+- This guide
+- GIT_USAGE_GUIDE.md for Git workflow
+- TROUBLESHOOTING.md for common issues
+- User if information is unclear
 
-**For project-specific questions:**
-- Check master_plan.md
-- Check relevant Level 2 documentation
-- Check SESSION_CAPTURE.md for recent context
-- Ask user if information not documented
+**For project questions:**
+- master_plan.md for overview
+- Level 2 documentation for domain details
+- SESSION_CAPTURE.md for recent context
+- User if information is not documented
 
 ---
 
-## Ready to Start?
+## Starting Work
 
-1. **Read master_plan.md** - Understand the project
-2. **Read TODO.md** - See what needs doing
-3. **Choose a task** - Pick something to work on
-4. **Update SESSION_CAPTURE.md** - Note what you're doing
-5. **Do the work** - Follow methodology
-6. **Commit changes** - Clean up before ending session
-
-**Welcome to The Briefcase. Let's build something great! 💼**
+1. Read master_plan.md for project understanding
+2. Read TODO.md for available work
+3. Select a task
+4. Update SESSION_CAPTURE.md with progress
+5. Complete the work following methodology
+6. Commit changes before ending session

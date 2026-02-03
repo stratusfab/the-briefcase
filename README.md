@@ -1,192 +1,156 @@
-# The Briefcase 💼
+# The Briefcase
 
 **AI Project Memory Framework**
 
 > *"What's in the briefcase? Your project's context."*
 
----
-
 ## What is The Briefcase?
 
-The Briefcase is a **Git-based persistent memory system for AI-assisted projects**. It solves the fundamental problem of AI context loss between sessions by storing all project knowledge, decisions, and progress in version-controlled documentation.
+The Briefcase is a Git-based persistent memory system for AI-assisted projects. It addresses AI context loss between sessions by storing project knowledge, decisions, and progress in version-controlled documentation.
 
-### The Problem It Solves
+### Problems It Addresses
 
-- 🔄 **Context Loss:** AI assistants forget everything between sessions
-- 📝 **Scattered Documentation:** Notes in random files, chat logs, wikis
-- 🤔 **Re-explaining:** Wasting time bringing AI up to speed
-- 🔍 **Lost Decisions:** Why did we choose this approach? No one remembers
-- 👥 **Team Coordination:** Multiple AIs (Claude, Copilot, ChatGPT) working independently
+- AI assistants lose context between sessions
+- Documentation scattered across files, chat logs, and wikis
+- Time wasted re-explaining project context
+- Forgotten decisions and rationale
+- Multiple AIs working with inconsistent information
 
-### The Solution
+### Approach
 
-The Briefcase provides:
+- Use Git as single source of truth for project context
+- Structure documentation in a consistent hierarchy
+- Store decisions and rationale alongside code
+- Enable any AI to load project context from documentation
+- Maintain continuity across sessions through version control
 
-- ✅ **Persistent Memory:** Git as the single source of truth
-- ✅ **Instant Context Loading:** AI reads key files, immediately understands project
-- ✅ **Multi-AI Coordination:** Any AI can read the same context and stay aligned
-- ✅ **Decision History:** Every choice documented and version controlled
-- ✅ **Session Continuity:** Pick up exactly where you left off
-- ✅ **Self-Documenting:** Project documents itself as work progresses
+## Quick Start
 
----
+New users should see [SETUP.md](SETUP.md) for installation (approximately 30 minutes).
 
-## Quick Start (30 Minutes)
+### Workflow
 
-**New to The Briefcase?** See **[SETUP.md](SETUP.md)** for first-time installation and configuration.
+1. AI loads context from master_plan.md and TODO.md
+2. Make changes and track decisions
+3. Commit with descriptive message
+4. Push to remote repository
 
-### For Returning Users
+## Documentation Structure
 
-1. **Start Session:** AI reads [master_plan.md](master_plan.md) + [TODO.md](TODO.md)
-2. **Work:** Make changes, track decisions
-3. **Commit:** `git commit` with clear message
-4. **End Session:** Push to remote, clean working tree
+### Three-Level Hierarchy
 
----
+**Level 1: Navigation**
+- master_plan.md provides project overview
+- Links to relevant documentation
+- Current status and phase information
 
-## How It Works
+**Level 2: Domain-Specific**
+- Detailed procedures for specific domains
+- Current state and progress tracking
+- Examples: INFRASTRUCTURE.md, API_GUIDE.md
 
-### 3-Level Documentation Hierarchy
-
-**Level 1: Navigation (master_plan.md)**
-- High-level project overview
-- Access information
-- Reference table to other docs
-
-**Level 2: Domain-Specific (e.g., INFRASTRUCTURE.md, API_GUIDE.md)**
-- Detailed procedures
-- Current state and progress
-- Domain-specific context
-
-**Level 3: System-Specific (e.g., system configs, READMEs)**
-- Granular technical details
-- File organization
-- Integration specifics
+**Level 3: System-Specific**
+- Implementation details
+- Configuration files
+- Integration documentation
 
 ### Core Files
 
-| File | Purpose | When to Read |
-|------|---------|--------------|
-| **master_plan.md** | Project overview, entry point | Every session start |
-| **TODO.md** | Active work items | Every session start |
-| **IMPROVEMENTS.md** | Enhancement suggestions | Weekly review |
-| **SESSION_CAPTURE.md** | In-session notes | During work |
-| **AI_INTEGRATION_GUIDE.md** | AI onboarding | First time, or when new AI joins |
-| **GLOSSARY.md** | Terminology | When confused |
-| **COMMON_TASKS.md** | Quick procedures | When doing routine tasks |
-
----
+| File | Purpose | Usage |
+|------|---------|-------|
+| master_plan.md | Project overview | Read at session start |
+| TODO.md | Work items | Read at session start |
+| IMPROVEMENTS.md | Suggestions | Review weekly |
+| SESSION_CAPTURE.md | Session notes | Update during work |
+| AI_INTEGRATION_GUIDE.md | AI onboarding | Read when joining project |
+| GLOSSARY.md | Terminology | Reference as needed |
+| COMMON_TASKS.md | Procedures | Reference for routine tasks |
 
 ## Features
 
-### 🧠 Persistent AI Memory
-- AI reads context files at session start
-- No re-explaining required
-- Instant project understanding
+**Persistent Memory**
+- Context preserved in Git between sessions
+- No need to re-explain project each time
+- History shows how project evolved
 
-### 📚 Self-Documenting
-- Documentation updates as you work
-- Git history shows evolution
-- Decisions captured in context
+**Multi-AI Support**
+- Works with Claude, Copilot, ChatGPT, or custom AIs
+- All AIs reference same documentation
+- Methodology consistent across tools
 
-### 👥 Multi-AI Coordination
-- Works with Claude, Copilot, ChatGPT, custom AIs
-- All AIs read same source of truth
-- Consistent methodology across tools
+**Credential Management**
+- Track what credentials exist and where they're stored
+- Never commit actual secrets
+- Inventory system without exposing values
 
-### 🔐 Credential Management
-- Secure credential storage strategy
-- Never commit secrets to Git
-- Inventory tracking without exposing values
-
-### ✅ Self-Validation
+**Validation**
 - Test suite verifies documentation consistency
-- Weekly health checks
-- Automated validation
+- Health checks identify issues
+- Automated validation on commit
 
-### 🔄 Session Workflow
-- Clear start/end procedures
-- Git as session boundary
+**Session Management**
+- Clear start and end procedures
+- Git commits mark session boundaries
 - Clean handoffs between sessions
-
----
 
 ## Use Cases
 
-- **Software Development Projects:** Track architecture, decisions, progress
-- **Infrastructure Management:** Document systems, procedures, credentials
-- **Research Projects:** Capture findings, references, methodology
-- **Business Process Documentation:** Procedures, decisions, workflows
-- **Multi-Repo Coordination:** Unified dashboard across multiple Git repos
+- Software development: architecture, decisions, progress tracking
+- Infrastructure management: systems, procedures, credentials
+- Research: findings, references, methodology
+- Business processes: procedures, decisions, workflows
+- Multi-repo projects: unified view across repositories
 
----
+## Design Principles
 
-## Philosophy
-
-1. **Git-First:** Version control everything (except secrets)
-2. **Single Source of Truth:** No duplicate information
-3. **Current and Correct:** Documentation stays up to date
-4. **Navigable:** Clear references between levels
-5. **Human-Readable:** AI-optimized but human-friendly
-6. **Concise:** Necessary information only
-
----
+1. Version control everything except secrets
+2. Single source of truth for all information
+3. Keep documentation current
+4. Clear navigation between documents
+5. Readable by both humans and AIs
+6. Include only necessary information
 
 ## Getting Started
 
-### New Project
+### For New Projects
 
 1. Clone this repository
-2. Follow [SETUP.md](SETUP.md) (30 minutes)
-3. Customize [master_plan.md](master_plan.md) for your project
-4. Read [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md)
-5. Start working!
+2. Follow SETUP.md (30 minutes)
+3. Customize master_plan.md
+4. Read AI_INTEGRATION_GUIDE.md
+5. Begin work
 
-### Existing Project
+### For Existing Projects
 
-1. Clone this repository to a new directory
-2. Copy your existing documentation into structure
-3. Run `bash .test_suite/run_validation_tests.sh`
-4. Fix any issues
-5. Commit and start using The Briefcase methodology
-
----
+1. Clone to new directory
+2. Copy existing documentation into structure
+3. Run validation: `bash .test_suite/run_validation_tests.sh`
+4. Address any issues
+5. Commit and begin using methodology
 
 ## Documentation
 
-- **[SETUP.md](SETUP.md)** - First-time setup guide
-- **[AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md)** - Onboard any AI
-- **[GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md)** - Git workflow and standards
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
-- **[SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md)** - Weekly verification
-
----
+- [SETUP.md](SETUP.md) - Installation and configuration
+- [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) - AI onboarding process
+- [GIT_USAGE_GUIDE.md](GIT_USAGE_GUIDE.md) - Git workflow
+- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common issues
+- [SYSTEM_HEALTH_CHECK.md](SYSTEM_HEALTH_CHECK.md) - Maintenance procedures
 
 ## Requirements
 
-- Git installed
-- GitHub account (or GitLab, Bitbucket, etc.)
+- Git
+- GitHub, GitLab, or similar (for remote storage)
 - Text editor
-- AI assistant (Claude, Copilot, ChatGPT, etc.) - optional but recommended
-
----
+- AI assistant (optional but recommended)
 
 ## License
 
 MIT License - See [LICENSE](LICENSE)
 
----
-
 ## Contributing
 
-Found a way to improve The Briefcase? Open an issue or submit a pull request!
-
----
+Improvements welcome via issues or pull requests.
 
 ## Credits
 
-Inspired by real-world AI-assisted project management, developed through iterative refinement across multiple projects.
-
----
-
-**Ready to never lose context again? Start with [SETUP.md](SETUP.md)**
+Developed from patterns observed in AI-assisted project work.

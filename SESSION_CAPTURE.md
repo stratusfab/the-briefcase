@@ -8,7 +8,7 @@
 
 ---
 
-## 📝 How to Use This File
+## How to Use This File
 
 **During Work:**
 - Capture observations, blockers, ideas as they happen
@@ -26,7 +26,7 @@
 
 ---
 
-## 🗓️ Session [Date] - [Brief Session Description]
+## Session [Date] - [Brief Session Description]
 
 **Started:** [Time]
 **Focus:** [What you're working on]
@@ -84,7 +84,7 @@
 
 ---
 
-## 🔚 Session End Triage
+## Session End Triage
 
 **Before ending session, process these notes:**
 
@@ -101,10 +101,10 @@
 
 ---
 
-## 📋 Template (Copy for New Session)
+## Template (Copy for New Session)
 
 ```markdown
-## 🗓️ Session [YYYY-MM-DD] - [Brief Description]
+## Session [YYYY-MM-DD] - [Brief Description]
 
 **Started:** [HH:MM]
 **Focus:** [Main task/goal]

@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Inventory Overview
+## Inventory Overview
 
 | Credential | Type | Status | Location | Expires | Last Rotated |
 |------------|------|--------|----------|---------|--------------|
@@ -94,7 +94,7 @@
 
 ---
 
-## 📝 Template (Copy for New Credentials)
+## Template (Copy for New Credentials)
 
 ```markdown
 ### [Credential Name]
@@ -116,7 +116,7 @@
 
 ---
 
-## 🔄 Rotation Log
+## Rotation Log
 
 **Track credential rotations here for audit purposes**
 
@@ -127,7 +127,7 @@
 
 ---
 
-## ⚠️ Expiration Alerts
+## Expiration Alerts
 
 **Credentials expiring within 30 days:**
 
@@ -136,7 +136,7 @@
 
 ---
 
-## 📊 Statistics
+## Statistics
 
 | Metric | Count |
 |--------|-------|
@@ -148,7 +148,7 @@
 
 ---
 
-## 🚨 Compromised Credentials Log
+## Compromised Credentials Log
 
 **If a credential is compromised, document here:**
 
@@ -167,7 +167,7 @@
 
 ---
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [.credentials/README.md](README.md) - How to manage credentials
 - [GIT_USAGE_GUIDE.md](../GIT_USAGE_GUIDE.md) - Preventing credential commits
