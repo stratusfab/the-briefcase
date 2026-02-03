@@ -190,9 +190,9 @@
 ## Related Files
 
 - [master_plan.md](master_plan.md) - Strategic decisions, current phase
-- [todo.md](todo.md) - Where approved items go
-- [improvements.md](improvements.md) - Where suggestions start
-- [session_capture.md](session_capture.md) - Capture ripple effects during work
+- [todo.md](docs/todo.md) - Where approved items go
+- [improvements.md](docs/improvements.md) - Where suggestions start
+- [session_capture.md](docs/session_capture.md) - Capture ripple effects during work
 
 ---
 

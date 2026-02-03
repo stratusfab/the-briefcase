@@ -6,6 +6,41 @@
 
 ---
 
+## AI Session Startup
+
+**You are starting a new session.** Follow this procedure:
+
+### 1. Load Context
+Read these files in order:
+- This file (master_plan.md) - you're reading it now
+- docs/todo.md - see what work is available
+- docs/session_capture.md - check for recent context (if it exists)
+
+### 2. Understand the Project
+From this file, identify:
+- Project name and mission
+- Current phase and status
+- Strategic decisions (constraints you must work within)
+- Key systems and how to access them
+
+### 3. Report to User
+Provide a concise report with:
+- **Project:** Name and current phase
+- **Your role:** What you can do (based on access available)
+- **Priority work:** Top 3 items from todo.md
+- **Status:** Any blockers or issues noted in session_capture.md
+- **Ready:** Confirm you're ready to work or ask what they want to focus on
+
+### 4. Get Direction
+Either:
+- Work on specific task the user mentions
+- Suggest working on highest priority item from todo.md
+- Ask user what they want to focus on
+
+**That's it. You now have full context. Everything else in this file is reference material.**
+
+---
+
 ## Quick Project Overview
 
 **Mission:** [One sentence describing what this project does or aims to achieve]
@@ -212,7 +247,7 @@ Documentation is organized in 3 levels, each serving a specific purpose:
 - [Risk] - [How it's mitigated]
 
 ### TODO (High Priority)
-See [todo.md](todo.md) for full list. Top 3:
+See [todo.md](docs/todo.md) for full list. Top 3:
 1. [High priority item 1]
 2. [High priority item 2]
 3. [High priority item 3]
@@ -280,10 +315,10 @@ git push origin main
 ## Related Documents
 
 - **[README.md](README.md)** - Project overview and philosophy
-- **[todo.md](todo.md)** - Current work items
-- **[improvements.md](improvements.md)** - Enhancement suggestions
-- **[session_capture.md](session_capture.md)** - In-session notes
-- **[ai_integration_guide.md](ai_integration_guide.md)** - AI onboarding
+- **[todo.md](docs/todo.md)** - Current work items
+- **[improvements.md](docs/improvements.md)** - Enhancement suggestions
+- **[session_capture.md](docs/session_capture.md)** - In-session notes
+- **[ai_integration_guide.md](docs/ai_integration_guide.md)** - AI onboarding
 
 ---
 

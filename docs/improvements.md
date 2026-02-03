@@ -141,9 +141,9 @@ When moving suggestions to todo.md, use these categories:
 
 ## Related Files
 
-- [todo.md](todo.md) - Actionable items (created from suggestions)
-- [system_health_check.md](system_health_check.md) - Weekly verification
-- [session_capture.md](session_capture.md) - In-session observations
+- [todo.md](docs/todo.md) - Actionable items (created from suggestions)
+- [system_health_check.md](docs/system_health_check.md) - Weekly verification
+- [session_capture.md](docs/session_capture.md) - In-session observations
 - [master_plan.md](master_plan.md) - Strategic decisions (check for conflicts)
 
 ---

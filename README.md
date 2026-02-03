@@ -26,7 +26,7 @@ The Briefcase is a Git-based persistent memory system for AI-assisted projects. 
 
 ## Quick Start
 
-New users should see [setup.md](setup.md) for installation (approximately 30 minutes).
+New users should see [setup.md](docs/setup.md) for installation (approximately 30 minutes).
 
 ### Workflow
 
@@ -130,11 +130,11 @@ New users should see [setup.md](setup.md) for installation (approximately 30 min
 
 ## Documentation
 
-- [setup.md](setup.md) - Installation and configuration
-- [ai_integration_guide.md](ai_integration_guide.md) - AI onboarding process
-- [git_usage_guide.md](git_usage_guide.md) - Git workflow
-- [troubleshooting.md](troubleshooting.md) - Common issues
-- [system_health_check.md](system_health_check.md) - Maintenance procedures
+- [setup.md](docs/setup.md) - Installation and configuration
+- [ai_integration_guide.md](docs/ai_integration_guide.md) - AI onboarding process
+- [git_usage_guide.md](docs/git_usage_guide.md) - Git workflow
+- [troubleshooting.md](docs/troubleshooting.md) - Common issues
+- [system_health_check.md](docs/system_health_check.md) - Maintenance procedures
 
 ## Requirements
 
