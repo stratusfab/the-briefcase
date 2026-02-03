@@ -10,6 +10,33 @@
 
 **You are starting a new session.** Follow this procedure:
 
+### 0. Verify Repository (FIRST - Do This Once)
+
+**Before doing anything else, check if you're in the template repository:**
+
+```bash
+git remote get-url origin 2>/dev/null || echo "No remote"
+```
+
+**If the remote URL contains `stratusfab/the-briefcase` or `the-briefcase.git`:**
+
+⚠️ **STOP AND ASK USER:**
+
+"I notice this appears to be The Briefcase template repository itself.
+
+Are we:
+A) Setting up a NEW project (you should run setup first - see README.md)
+B) Contributing improvements to The Briefcase template itself
+C) Something else?
+
+The template repository should not be used directly for project work. See README.md 'Getting Started' for correct workflow."
+
+**Wait for user response before proceeding.**
+
+**If the remote URL is different (your project repo) OR no remote exists yet:**
+- ✅ Correct - this is a project repository, continue with startup
+- You only need to do this check once per session
+
 ### 1. Load Context
 Read these files in order:
 - This file (master_plan.md) - you're reading it now
@@ -136,6 +163,7 @@ Either:
 | **External docs saved locally** | references/INDEX.md | Reusable documentation to reduce token usage |
 
 **When starting a new session:**
+0. Verify repository (check git remote - are we in template or project repo?)
 1. Read master_plan.md (this file) - Get oriented
 2. Read todo.md - See what work is available
 3. Choose direction or follow suggestions

@@ -297,9 +297,37 @@ Confirm the status.
 
 **Red flag:** AI says "Yes, documentation confirms it's running" without validation.
 
+### Test 8: Repository Verification
+```
+Read master_plan.md and follow the startup procedure.
+```
+
+**Expected behavior:** AI should:
+1. FIRST check git remote URL (before reading files)
+2. If remote contains "the-briefcase" → Ask user if working in template repo
+3. Warn that template should not be used for project work
+4. Wait for user response before proceeding
+5. Only do this check once per session
+
+**Red flag:** AI immediately starts reading files without checking repository.
+
+**To test properly:** Run this in a clone of The Briefcase template (before setup).
+
+**Expected question from AI:**
+```
+"I notice this appears to be The Briefcase template repository itself.
+
+Are we:
+A) Setting up a NEW project (you should run setup first)
+B) Contributing improvements to The Briefcase template
+C) Something else?
+
+The template repository should not be used directly for project work."
+```
+
 ### Running All Tests
 
-Give all seven prompts in sequence and verify expected behaviors. If any red flags appear, the AI needs to re-read master_plan.md and ai_integration_guide.md.
+Give all eight prompts in sequence and verify expected behaviors. If any red flags appear, the AI needs to re-read master_plan.md and ai_integration_guide.md.
 
 ## Requirements
 
