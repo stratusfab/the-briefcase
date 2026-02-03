@@ -62,6 +62,23 @@ Either:
 - Commit changes with clear message: `[category] Description`
 - Push to remote: `git push origin main`
 
+**When you fetch external documentation:**
+- Save it in docs/references/ with source URL and fetch date
+- Add entry to docs/references/INDEX.md
+- Never fetch the same documentation twice without validation
+
+**When you need documentation:**
+1. Check docs/references/INDEX.md first - do we already have it?
+2. If yes: Validate it's still current (check date noted in INDEX.md)
+3. If outdated: Fetch new, update local copy and INDEX.md
+4. If missing: Fetch, save for future use, add to INDEX.md
+
+**When solving a task:**
+- Check session_capture.md and git log for similar past tasks
+- Reference previous approaches rather than starting from scratch
+- Document your solution clearly so future sessions can reference it
+- Success metric: Token usage should decline over time as knowledge accumulates
+
 **That's it. You now have full context. Everything else in this file is reference material.**
 
 ---
@@ -98,6 +115,7 @@ Either:
 | **What came up today?** | session_capture.md | In-the-moment notes |
 | **System improvement ideas** | improvements.md | Capture suggestions, reviewed weekly |
 | **Git/version control** | git_usage_guide.md | Git workflow, commit standards |
+| **External docs saved locally** | references/INDEX.md | Reusable documentation to reduce token usage |
 
 **When starting a new session:**
 1. Read master_plan.md (this file) - Get oriented

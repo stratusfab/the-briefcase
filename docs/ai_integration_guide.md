@@ -116,6 +116,7 @@ The Briefcase uses 3 levels of documentation:
 | **common_tasks.md** | Procedures | When doing task | New procedures |
 | **git_usage_guide.md** | Git workflow | When committing | Workflow changes |
 | **troubleshooting.md** | Problem-solving | When stuck | New issues solved |
+| **references/INDEX.md** | Saved external docs | Before fetching docs | When saving new docs |
 
 ---
 

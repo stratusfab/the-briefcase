@@ -109,6 +109,7 @@ New users should see [setup.md](docs/setup.md) for installation (approximately 3
 4. Clear navigation between documents
 5. Readable by both humans and AIs
 6. Include only necessary information
+7. Accumulate knowledge over time - save external docs, reference previous work, reduce token usage through reuse
 
 ## Getting Started
 
