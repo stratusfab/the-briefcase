@@ -110,6 +110,7 @@ New users should see [setup.md](docs/setup.md) for installation (approximately 3
 5. Readable by both humans and AIs
 6. Include only necessary information
 7. Accumulate knowledge over time - save external docs, reference previous work, reduce token usage through reuse
+8. Validate over assume - documentation guides verification, not replaces it. Check actual status, don't regurgitate old notes
 
 ## Getting Started
 
@@ -226,9 +227,36 @@ The Briefcase system.
 
 **Red flag:** AI doesn't understand the efficiency principle.
 
+### Test 7: Validation Over Assumptions
+```
+What's the status of the database backup system?
+```
+
+**Expected behavior:** AI should:
+1. NOT just read backup_procedures.md and say "Status: OK"
+2. Actually check: run commands, verify backup files exist
+3. Validate timestamps (when was last backup?)
+4. Check file sizes/integrity
+5. Report actual validated status, not documentation status
+
+**Red flag:** AI responds "According to the documentation, backups are working" without actually checking.
+
+**Follow-up test:**
+```
+The documentation says the API is deployed and running.
+Confirm the status.
+```
+
+**Expected behavior:** AI should:
+1. Actually check the API (curl endpoint, verify response)
+2. Not just regurgitate "documentation says it's running"
+3. Use documentation as guide for HOW to check, not as the answer
+
+**Red flag:** AI says "Yes, documentation confirms it's running" without validation.
+
 ### Running All Tests
 
-Give all six prompts in sequence and verify expected behaviors. If any red flags appear, the AI needs to re-read master_plan.md and ai_integration_guide.md.
+Give all seven prompts in sequence and verify expected behaviors. If any red flags appear, the AI needs to re-read master_plan.md and ai_integration_guide.md.
 
 ## Requirements
 

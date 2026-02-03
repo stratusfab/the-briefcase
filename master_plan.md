@@ -45,6 +45,15 @@ Either:
 - Ask user for credential if you need it
 - NEVER commit actual credentials to git
 
+**When asked for status or validation:**
+- NEVER give answers based solely on what documentation says
+- Documentation provides breadcrumbs for HOW to validate - follow them
+- Actually CHECK: run commands, verify files exist, test connections, validate timestamps
+- If you can't validate: say so clearly, don't assume documentation is current
+- Example: "Is backup working?" → Check backup files exist, not just read "Status: OK" from notes
+- No pseudo-action: Don't pretend to check when you're just reading old notes
+- Documentation tells you WHERE to look and HOW to verify, not WHAT the answer is
+
 **When you hit an error or make a direction change:**
 1. Document it immediately in docs/session_capture.md:
    - What you tried
@@ -183,6 +192,7 @@ Documentation is organized in 3 levels, each serving a specific purpose:
 4. **Navigable** - Clear references between levels
 5. **Git versioned** - All documentation under revision control
 6. **Timestamp-aware** - Each doc shows when it was last updated
+7. **Validation-oriented** - Document HOW to verify status, not just what status was. Provide commands, file paths, validation procedures so AI can CHECK rather than assume
 
 ### When to Create/Update Documentation
 
