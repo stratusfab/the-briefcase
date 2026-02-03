@@ -215,9 +215,9 @@ bash .test_suite/run_validation_tests.sh
 ## Getting More Help
 
 **Still stuck?**
-1. Review [README.md](README.md) for overview
-2. Check [ai_integration_guide.md](docs/ai_integration_guide.md) for AI-specific help
-3. Review [git_usage_guide.md](docs/git_usage_guide.md) for Git issues
+1. Review [README.md](../README.md) for overview
+2. Check [ai_integration_guide.md](ai_integration_guide.md) for AI-specific help
+3. Review [git_usage_guide.md](git_usage_guide.md) for Git issues
 4. Open an issue on The Briefcase GitHub repository
 
 ---

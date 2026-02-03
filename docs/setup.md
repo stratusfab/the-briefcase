@@ -219,8 +219,8 @@ Verify after setup:
 
 ## Next Steps
 
-1. Read [ai_integration_guide.md](docs/ai_integration_guide.md) for AI integration
-2. Review [git_usage_guide.md](docs/git_usage_guide.md) for commit standards
+1. Read [ai_integration_guide.md](ai_integration_guide.md) for AI integration
+2. Review [git_usage_guide.md](git_usage_guide.md) for commit standards
 3. Start first session (AI reads master_plan.md + todo.md)
 4. Work on first TODO item
 5. Commit changes with clear message
@@ -262,7 +262,7 @@ touch .test_suite/test_api_coverage.sh
 - **Fix:** Explicitly ask AI to read master_plan.md
 
 **Issue:** Credentials accidentally committed
-- **Fix:** See [git_usage_guide.md](docs/git_usage_guide.md) → "Removing Sensitive Data"
+- **Fix:** See [git_usage_guide.md](git_usage_guide.md) → "Removing Sensitive Data"
 - **Fix:** `git filter-branch` or `git filter-repo` to scrub history
 - **Fix:** Rotate compromised credentials immediately
 
@@ -275,6 +275,6 @@ touch .test_suite/test_api_coverage.sh
 ## Getting Help
 
 - Open an issue on GitHub
-- Check [troubleshooting.md](docs/troubleshooting.md)
-- Read [ai_integration_guide.md](docs/ai_integration_guide.md) for AI-specific questions
+- Check [troubleshooting.md](troubleshooting.md)
+- Read [ai_integration_guide.md](ai_integration_guide.md) for AI-specific questions
 
