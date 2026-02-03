@@ -73,6 +73,15 @@ Either:
 3. If outdated: Fetch new, update local copy and INDEX.md
 4. If missing: Fetch, save for future use, add to INDEX.md
 
+**Before implementing any solution:**
+1. Research official documentation FIRST - never code based on assumptions or hallucinated knowledge
+2. Check docs/references/INDEX.md for official docs related to the task
+3. If missing: Fetch official/current documentation, save it, then review thoroughly
+4. Verify the approach is current (check for deprecated methods, outdated patterns)
+5. Document research findings in docs/session_capture.md before starting
+6. ONLY THEN begin implementation based on verified official guidance
+7. Priority order: Official docs > Saved references > Verified blog posts > Never guess
+
 **When solving a task:**
 - Check session_capture.md and git log for similar past tasks
 - Reference previous approaches rather than starting from scratch

@@ -137,6 +137,99 @@ New users should see [setup.md](docs/setup.md) for installation (approximately 3
 - [troubleshooting.md](docs/troubleshooting.md) - Common issues
 - [system_health_check.md](docs/system_health_check.md) - Maintenance procedures
 
+## System Audit Prompts
+
+Use these prompts to verify The Briefcase behaviors are working as designed. Give these to your AI assistant to test if it has internalized the operational rules.
+
+### Test 1: Research Before Implementation
+```
+I need you to integrate Stripe payments into the application.
+Start working on this now.
+```
+
+**Expected behavior:** AI should NOT immediately start coding. It should:
+1. State it needs to research official Stripe documentation first
+2. Check docs/references/INDEX.md for Stripe docs
+3. Fetch official docs if missing, save them
+4. Review current best practices
+5. Only then propose implementation approach
+
+**Red flag:** AI starts writing code immediately without consulting documentation.
+
+### Test 2: Knowledge Reuse
+```
+We need to integrate another payment provider.
+How would you approach this?
+```
+
+**Expected behavior:** AI should:
+1. Reference previous Stripe integration work
+2. Check session_capture.md and git log for patterns
+3. Apply learned patterns to new provider
+4. Note token savings from reusing knowledge
+
+**Red flag:** AI treats this as completely new work without referencing past integration.
+
+### Test 3: Documentation Validation
+```
+Use the React documentation we saved last month to implement
+a new feature.
+```
+
+**Expected behavior:** AI should:
+1. Check docs/references/INDEX.md for React docs
+2. Validate docs are still current (check last updated date)
+3. If outdated, fetch new version and update
+4. Only use validated documentation
+
+**Red flag:** AI uses saved docs without validating currency.
+
+### Test 4: Error Learning
+```
+I tried approach X and got error Y. Can you fix it?
+```
+
+**Expected behavior:** AI should:
+1. Document the error in docs/session_capture.md immediately
+2. Research why approach X failed
+3. Find correct approach from official docs
+4. Update docs/common_tasks.md so future sessions avoid this
+5. Commit the learning
+
+**Red flag:** AI fixes the issue but doesn't document the learning.
+
+### Test 5: Improvement Capture
+```
+The current deployment process takes 15 manual steps.
+Deploy the latest changes.
+```
+
+**Expected behavior:** AI should:
+1. Complete the deployment
+2. Recognize the inefficiency (15 manual steps)
+3. Add suggestion to docs/improvements.md to automate
+4. Note context, benefit, and effort estimate
+
+**Red flag:** AI deploys but doesn't capture improvement opportunity.
+
+### Test 6: Knowledge Accumulation
+```
+Explain how token usage should change over time with
+The Briefcase system.
+```
+
+**Expected behavior:** AI should explain:
+1. First session: High tokens (fetching docs, exploring)
+2. Later sessions: Lower tokens (reusing saved knowledge)
+3. Token usage trends down as knowledge accumulates
+4. This is a success metric for the system
+
+**Red flag:** AI doesn't understand the efficiency principle.
+
+### Running All Tests
+
+Give all six prompts in sequence and verify expected behaviors. If any red flags appear, the AI needs to re-read master_plan.md and ai_integration_guide.md.
+
 ## Requirements
 
 - Git
