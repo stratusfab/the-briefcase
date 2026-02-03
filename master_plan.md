@@ -94,7 +94,6 @@ Either:
 ### Working on Specific Domains
 | Task Type | Reference Document | Purpose |
 |-----------|-------------------|---------|
-| **Starting a new session** | SESSION_STARTUP_GUIDE.md | Context loading, suggested actions |
 | **What needs to be done?** | todo.md | Persistent todo list |
 | **What came up today?** | session_capture.md | In-the-moment notes |
 | **System improvement ideas** | improvements.md | Capture suggestions, reviewed weekly |
