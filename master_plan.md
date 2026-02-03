@@ -37,6 +37,31 @@ Either:
 - Suggest working on highest priority item from todo.md
 - Ask user what they want to focus on
 
+### 5. Operational Rules (Read These)
+
+**When you need credentials:**
+- Check `.credentials/CREDENTIALS_INVENTORY.md` for credential locations
+- That file tells you WHERE credentials are stored, not the actual values
+- Ask user for credential if you need it
+- NEVER commit actual credentials to git
+
+**When you hit an error or make a direction change:**
+1. Document it immediately in docs/session_capture.md:
+   - What you tried
+   - Why it didn't work
+   - What you're doing instead
+2. After solving, update relevant documentation so next session doesn't repeat the mistake:
+   - If it's a known limitation → update this file under "Known Issues"
+   - If it's a better approach → update docs/common_tasks.md
+   - If it affects strategy → update "Strategic Decisions" section
+3. Commit the documentation update with clear message
+
+**When you complete work:**
+- Update docs/todo.md (mark items complete)
+- Update docs/session_capture.md with what was accomplished
+- Commit changes with clear message: `[category] Description`
+- Push to remote: `git push origin main`
+
 **That's it. You now have full context. Everything else in this file is reference material.**
 
 ---
