@@ -1,0 +1,62 @@
+# The Briefcase - Git Ignore Rules
+
+# CRITICAL: Never commit actual credentials
+.credentials/*
+!.credentials/README.md
+!.credentials/CREDENTIALS_INVENTORY.md
+!.credentials/.gitignore
+
+# Secrets and sensitive files
+secrets.yaml
+secrets.yml
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+
+# API tokens and credentials
+*_token
+*_api_key
+*credentials.json
+*credentials.yaml
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Project-specific (add your own below)
+# ...

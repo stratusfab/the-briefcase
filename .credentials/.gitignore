@@ -1,0 +1,75 @@
+# .credentials/.gitignore
+#
+# CRITICAL: This prevents accidentally committing actual credentials
+#
+# This directory should ONLY contain:
+# - README.md (documentation)
+# - CREDENTIALS_INVENTORY.md (metadata, NOT values)
+# - This .gitignore file
+#
+# Everything else is BLOCKED from Git
+
+# Block everything by default
+*
+
+# Except these safe files
+!README.md
+!CREDENTIALS_INVENTORY.md
+!.gitignore
+
+# Double-check: Block all credential file types
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.secret
+*.token
+*.credentials
+*_token
+*_key
+*_secret
+*.env
+.env.*
+
+# Block common sensitive files
+secrets.yaml
+secrets.yml
+secrets.json
+credentials.json
+credentials.yaml
+config.json
+config.yaml
+
+# Block SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+known_hosts
+authorized_keys
+
+# Block backup files (might contain credentials)
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Block database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Block logs (might contain credentials)
+*.log
+
+# Block temporary files
+*.tmp
+*.temp
