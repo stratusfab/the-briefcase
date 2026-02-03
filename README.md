@@ -4,6 +4,24 @@
 
 > *"What's in the briefcase? Your project's context."*
 
+---
+
+## ⚠️ IMPORTANT: This is a Template Repository
+
+**DO NOT work directly in this repository for your projects.**
+
+This repository contains the clean baseline template for The Briefcase methodology. To start a new project:
+
+1. **Clone to a NEW directory** with YOUR project name (not "the-briefcase")
+2. **Remove the .git directory** and initialize a NEW repository
+3. **Create a NEW GitHub repository** for YOUR project
+4. **Customize the template** for your project
+5. **NEVER push to stratusfab/the-briefcase** unless contributing template improvements
+
+**See [Quick Start](#getting-started) below for detailed instructions.**
+
+---
+
 ## What is The Briefcase?
 
 The Briefcase is a Git-based persistent memory system for AI-assisted projects. It addresses AI context loss between sessions by storing project knowledge, decisions, and progress in version-controlled documentation.
@@ -114,21 +132,46 @@ New users should see [setup.md](docs/setup.md) for installation (approximately 3
 
 ## Getting Started
 
-### For New Projects
+### For New Projects (Start Here)
 
-1. Clone this repository
-2. Follow setup.md (30 minutes)
-3. Customize master_plan.md
-4. Read ai_integration_guide.md
-5. Begin work
+**Create a NEW repository from this template:**
+
+```bash
+# Clone to YOUR project directory (NOT "the-briefcase")
+git clone https://github.com/stratusfab/the-briefcase.git my-awesome-project
+cd my-awesome-project
+
+# Remove template Git history - CRITICAL STEP
+rm -rf .git
+git init
+git branch -m main
+
+# Create NEW GitHub repo for YOUR project, then:
+git remote add origin https://github.com/YOUR_USERNAME/my-awesome-project.git
+
+# First commit
+git add .
+git commit -m "[project] Initialize from The Briefcase template"
+git push -u origin main
+```
+
+**Then:**
+1. Follow [setup.md](docs/setup.md) to customize (30 minutes)
+2. Customize master_plan.md with YOUR project details
+3. Read ai_integration_guide.md
+4. Begin work
+
+**Result:** You now have a SEPARATE repository for your project. The Briefcase template remains clean.
 
 ### For Existing Projects
 
-1. Clone to new directory
-2. Copy existing documentation into structure
+1. Clone The Briefcase to temporary directory
+2. Copy template files into your existing project structure
 3. Run validation: `bash .test_suite/run_validation_tests.sh`
 4. Address any issues
 5. Commit and begin using methodology
+
+**See [setup.md](docs/setup.md) for detailed instructions.**
 
 ## Documentation
 
