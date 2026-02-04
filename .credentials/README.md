@@ -245,7 +245,7 @@ See [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) for the full inventory.
 
 - [CREDENTIALS_INVENTORY.md](CREDENTIALS_INVENTORY.md) - The actual inventory
 - [.gitignore](../.gitignore) - Prevents committing secrets
-- [git_usage_guide.md](../git_usage_guide.md) - Git workflow and safety
+- [git_usage_guide.md](../docs/git_usage_guide.md) - Git workflow and safety
 - [master_plan.md](../master_plan.md) - Project overview
 
 ---

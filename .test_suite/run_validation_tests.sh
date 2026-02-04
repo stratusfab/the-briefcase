@@ -39,19 +39,24 @@ test_required_files() {
 
     required_files=(
         "README.md"
-        "SETUP.md"
         "master_plan.md"
-        "TODO.md"
-        "IMPROVEMENTS.md"
-        "SESSION_CAPTURE.md"
-        "AI_INTEGRATION_GUIDE.md"
-        "PLANNING_VALIDATION_CHECKLIST.md"
+        "CONTRIBUTING.md"
+        "LICENSE"
         ".gitignore"
+        "docs/setup.md"
+        "docs/todo.md"
+        "docs/improvements.md"
+        "docs/session_capture.md"
+        "docs/ai_integration_guide.md"
+        "docs/planning_validation_checklist.md"
+        "docs/template_improvements.md"
+        "docs/references/INDEX.md"
         ".credentials/README.md"
         ".credentials/CREDENTIALS_INVENTORY.md"
         ".credentials/.gitignore"
         ".test_suite/README.md"
         ".test_suite/run_validation_tests.sh"
+        ".github/PULL_REQUEST_TEMPLATE.md"
     )
 
     for file in "${required_files[@]}"; do
@@ -286,10 +291,10 @@ test_master_plan_complete() {
 test_todo_format() {
     echo "Running: TODO Format"
 
-    todo_file="$PROJECT_ROOT/TODO.md"
+    todo_file="$PROJECT_ROOT/docs/todo.md"
 
     if [ ! -f "$todo_file" ]; then
-        echo "  ⚠️  Warning: TODO.md not found"
+        echo "  ⚠️  Warning: docs/todo.md not found"
         ((WARNINGS++))
         return 0
     fi
@@ -302,7 +307,7 @@ test_todo_format() {
         ((WARNINGS++))
     fi
 
-    echo "  ${GREEN}✅ PASS${NC}: TODO.md format acceptable"
+    echo "  ${GREEN}✅ PASS${NC}: docs/todo.md format acceptable"
     return 0
 }
 

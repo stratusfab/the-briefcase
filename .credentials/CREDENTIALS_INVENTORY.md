@@ -170,7 +170,7 @@
 ## Related Documentation
 
 - [.credentials/README.md](README.md) - How to manage credentials
-- [git_usage_guide.md](../git_usage_guide.md) - Preventing credential commits
+- [git_usage_guide.md](../docs/git_usage_guide.md) - Preventing credential commits
 - [master_plan.md](../master_plan.md) - Project overview
 
 ---

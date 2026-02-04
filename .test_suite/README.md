@@ -165,8 +165,8 @@ Summary shows:
 
 ## Related Documentation
 
-- [setup.md](../setup.md) - Setup guide (includes test running)
-- [git_usage_guide.md](../git_usage_guide.md) - Git workflow
+- [setup.md](../docs/setup.md) - Setup guide (includes test running)
+- [git_usage_guide.md](../docs/git_usage_guide.md) - Git workflow
 - [master_plan.md](../master_plan.md) - Project overview
 
 ---

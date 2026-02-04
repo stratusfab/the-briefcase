@@ -145,7 +145,7 @@ How to run your project...
 
 ## Documentation
 
-See [master_plan.md](master_plan.md) for project overview and AI instructions.
+See [master_plan.md](../master_plan.md) for project overview and AI instructions.
 
 ## License
 
