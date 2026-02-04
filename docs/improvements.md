@@ -1,8 +1,22 @@
 # System Improvements & Suggestions
 
-**Purpose:** Capture enhancement ideas from conversations, triage them into actionable todos
+**Purpose:** Capture enhancement ideas for YOUR PROJECT, triage them into actionable todos
 
 **Last Updated:** [YYYY-MM-DD]
+
+---
+
+## ⚠️ Project vs Template Improvements
+
+**This file is for YOUR PROJECT improvements:**
+- Features for your application
+- Enhancements to your workflows
+- Your infrastructure improvements
+- Your automation ideas
+
+**NOT for:**
+- Improvements to The Briefcase framework itself
+- Those go in [template_improvements.md](template_improvements.md)
 
 ---
 

@@ -159,6 +159,7 @@ Either:
 | **What needs to be done?** | todo.md | Persistent todo list |
 | **What came up today?** | session_capture.md | In-the-moment notes |
 | **System improvement ideas** | improvements.md | Capture suggestions, reviewed weekly |
+| **Template framework ideas** | template_improvements.md | Suggestions for The Briefcase itself (contribute back) |
 | **Git/version control** | git_usage_guide.md | Git workflow, commit standards |
 | **External docs saved locally** | references/INDEX.md | Reusable documentation to reduce token usage |
 
