@@ -53,7 +53,39 @@ rm -rf .briefcase-template
 
 ---
 
-## Step 2: Customize master_plan.md (10 minutes)
+## Step 2: Understand Project Structure (2 minutes)
+
+The Briefcase provides a documentation layer. Your project files go alongside it:
+
+```
+your-project/
+├── master_plan.md         # Briefcase - customize
+├── README.md              # Replace with YOUR project README
+├── docs/                  # Briefcase documentation
+├── .credentials/          # Briefcase credential metadata
+├── .test_suite/           # Briefcase validation
+│
+└── [YOUR PROJECT FILES]   # ← Your code/config goes here
+    Examples:
+    ├── src/               # Source code (Python, JS, etc.)
+    ├── app/               # Application code
+    ├── config/            # Configuration files
+    ├── scripts/           # Utility scripts
+    ├── docker-compose.yml # Infrastructure
+    └── package.json       # Dependencies
+```
+
+**Recommended:** Organize project files however your project type prefers:
+- Python projects: `src/` and `tests/`
+- Docker projects: `services/` or by service name
+- Web apps: `frontend/` and `backend/`
+- Or any structure that makes sense for you
+
+The Briefcase documentation (master_plan.md, docs/) stays at root level.
+
+---
+
+## Step 3: Customize master_plan.md (10 minutes)
 
 Edit `master_plan.md` and customize these sections:
 
@@ -92,7 +124,51 @@ Edit `master_plan.md` and customize these sections:
 
 ---
 
-## Step 3: Set Up Credential Management (5 minutes)
+## Step 4: Customize README.md (5 minutes)
+
+**IMPORTANT:** The current README.md explains The Briefcase framework. Replace it with YOUR project README.
+
+### Option A: Complete Replacement (Recommended)
+```bash
+# Backup template README for reference
+mv README.md README-briefcase-template.md
+
+# Create your project README
+cat > README.md << 'EOF'
+# Your Project Name
+
+Brief description of what your project does.
+
+## Getting Started
+
+How to run your project...
+
+## Documentation
+
+See [master_plan.md](master_plan.md) for project overview and AI instructions.
+
+## License
+
+[Your license]
+EOF
+```
+
+### Option B: Modify Existing
+- Keep structure if you like it
+- Replace "The Briefcase" references with your project name
+- Update all sections to describe YOUR project
+- Keep the link to master_plan.md for AI instructions
+
+### What to Include in Your Project README
+- Project name and description
+- Installation/setup instructions
+- Usage examples
+- Link to master_plan.md (for AI context loading)
+- License and contributing info
+
+---
+
+## Step 5: Set Up Credential Management (5 minutes)
 
 The Briefcase uses `.credentials/` directory for sensitive information.
 
@@ -127,7 +203,7 @@ cat .credentials/CREDENTIALS_INVENTORY.md
 
 ---
 
-## Step 4: Initialize todo.md (5 minutes)
+## Step 6: Initialize todo.md (5 minutes)
 
 Start with a clean slate:
 
@@ -150,7 +226,7 @@ Use categories from template:
 
 ---
 
-## Step 5: Create Initial Commit (2 minutes)
+## Step 7: Create Initial Commit (2 minutes)
 
 ```bash
 # Stage everything
@@ -165,7 +241,7 @@ git push -u origin main
 
 ---
 
-## Step 6: Test AI Integration (3 minutes)
+## Step 8: Test AI Integration (3 minutes)
 
 ### For Claude Code (CLI)
 
@@ -192,7 +268,7 @@ claude
 
 ---
 
-## Step 7: Run Validation Tests (optional, 2 minutes)
+## Step 9: Run Validation Tests (optional, 2 minutes)
 
 ```bash
 # Run test suite to verify setup
